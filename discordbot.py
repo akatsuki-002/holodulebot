@@ -120,21 +120,21 @@ Hololive = {
         "https://yt3.ggpht.com/O7m_5HMY_O8yxR3Jhn9cEO1fLNL_GifMERExnAmfY7JrdTRsTjNijTcNYTPN97Llj3zGn8Susw=s88-c-k-c0x00ffffff-no-rj"
     ],
     #5期生
-    "UC1suqwovbL1kzsoaZgFZLKg": [
-        "癒月ちょこ",
-        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    "UCFKOVgVbGmX65RxO3EtH3iw": [
+        "雪花ラミィ",
+        "https://yt3.ggpht.com/ytc/AKedOLQDR06gp26jxNNXh88Hhv1o-pNrnlKrYruqUIOx=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCvzGlP9oQwU--Y0r9id_jnA": [
-        "大空スバル",
-        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    "UCAWSyEs_Io8MtpY3m-zqILA": [
+        "桃鈴ねね",
+        "https://yt3.ggpht.com/bMBMxmB1YVDVazU-8KbB6JZqUHn4YzmFiQRWwEUHCeqm5REPW7HHQChC5xE6e36aqqnXgK4a=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UC1uv2Oq6kNxgATlCiez59hw": [
-        "常闇トワ",
-        "https://yt3.ggpht.com/a/AATXAJxqyp7DhLSSrSYRc5HaLcq5QvJvRp3jDnxTeA=s288-c-k-c0xffffffff-no-rj-mo"
+    "UCUKD-uaobj9jiqB-VXt71mA": [
+        "獅白ぼたん",
+        "https://yt3.ggpht.com/ytc/AKedOLQXr6MeUpHI0-yNZIAaGXHvBVowhCWMwGx-zXYs=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCa9Y57gfeY0Zro_noHRVrnw": [
-        "姫森ルーナ",
-        "https://yt3.ggpht.com/a/AATXAJzzirDjRJkofWVeoE6gVjodJ0VXaJhy4b_CLg=s288-c-k-c0xffffffff-no-rj-mo"
+    "UCK9V2B22uJYu3N7eR_BT9QA": [
+        "尾丸ポルカ",
+        "https://yt3.ggpht.com/ytc/AKedOLQI_iYxOpfP8bJklQ_VnS4a9jdrwRRlre_JP1Yp=s88-c-k-c0x00ffffff-no-rj"
     ],
     #6期生
     "UC1opHUrw8rvnsadT-iGp7Cg": [
