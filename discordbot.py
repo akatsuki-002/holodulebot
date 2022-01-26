@@ -5,6 +5,7 @@ import copy
 from datetime import datetime, timedelta, timezone
 
 Hololive = {
+    #0期生
     "UCp6993wxpyDPHUpavwDFqgg": [
         "ときのそら",
         "https://yt3.ggpht.com/a/AATXAJzGvZJuJ92qM5WcfBcDZqPFSj_CGIEYp9VFmA=s288-c-k-c0xffffffff-no-rj-mo"
@@ -25,6 +26,7 @@ Hololive = {
         "AZKi",
         "https://yt3.ggpht.com/ytc/AKedOLQQhnWKHLOLxjnXksGHHC8bnVS2UniL8Od6JTEPWQ=s88-c-k-c0x00ffffff-no-rj"
     ],
+    #1期生
     "UCD8HOxPs4Xvsm8H0ZxXGiBw": [
         "夜空メル",
         "https://yt3.ggpht.com/ytc/AKedOLS8pa1lDGBL7tieftDRgPjVsSexeMJ9YURgBTXDMg=s88-c-k-c0x00ffffff-no-rj"
@@ -45,7 +47,87 @@ Hololive = {
         "夏色まつり",
         "https://yt3.ggpht.com/ytc/AKedOLQCXDfJbZoEZ-gtUiF4nSaGU8-qiq--BSTd92Sw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    
+    #2期生
+    "UC1opHUrw8rvnsadT-iGp7Cg": [
+        "湊あくあ",
+        "https://yt3.ggpht.com/ytc/AKedOLTbU5ET3bgn0Iuz1jUBNjgSe9EW8kLxIhDUrtJlPw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCXTpFs_3PqI41qX2d9tL2Rw": [
+        "紫咲シオン",
+        "https://yt3.ggpht.com/AyUL9W0ltc_aJr_MysuZBx8hRfb1SIVNREgU9kiOO-lqmdhYkEsllmhagertVIwHwa3UAAKy=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC7fk0CB07ly8oSl0aqKkqFg": [
+        "百鬼あやめ",
+        "https://yt3.ggpht.com/XDGhKwPZcT16Ppg2gQmLHEIYRhw9sY4rqG0HWbeCH68LHkhlVQrrFgxd5hWUuMb2nLfDOhu6=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1suqwovbL1kzsoaZgFZLKg": [
+        "癒月ちょこ",
+        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvzGlP9oQwU--Y0r9id_jnA": [
+        "大空スバル",
+        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    #ゲーマーズ
+    "UCp-5t9SrOQwXMU7iIjQfARg": [
+        "大神ミオ",
+        "https://yt3.ggpht.com/ytc/AKedOLRP0h31urAKtYcu_j1foVuGyPU65_Y-VNBqLgHB5Q=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvaTdHTWBGv3MKj3KVqJVCw": [
+        "猫又おかゆ",
+        "https://yt3.ggpht.com/ytc/AKedOLT_TLZsRHyNXj_3v1QIfF5Z1LOEIKQPL_7HGH29=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UChAnqc_AY5_I3Px5dig3X1Q": [
+        "戌神ころね",
+        "https://yt3.ggpht.com/ytc/AKedOLSegxVNNn4QGDwO-jO89ZDcYLSyPUQS3a4KU6QPCw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    #3期生
+    "UC1DCedRgGHBdm81E1llLhOQ": [
+        "兎田ぺこら",
+        "https://yt3.ggpht.com/ytc/AKedOLSmHTeNNQp8A4AwsUPKzBa2ubDBWe6RSaG39mAYTw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCl_gCybOJRIgOXw6Qb4qJzQ": [
+        "麗羽るしあ",
+        "https://yt3.ggpht.com/ytc/AKedOLR1en3cN55loPrFL1C5K19o5xGhcKkmr0noD4cO=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvInZx9h3jC2JzsIzoOebWg": [
+        "不知火フレア",
+        "https://yt3.ggpht.com/d9aIrGtZR0eI4k1Wnev5f_R4llIBsWnQOjkdsqkMycoAxA3g_zz-jyeBl8tEHfbm1iTg0SJj=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCdyqAaZDKHXg4Ahi7VENThQ": [
+        "白銀ノエル",
+        "https://yt3.ggpht.com/ytc/AKedOLS1MTrG3Gn7-Vf_rVNAZ2Ou8KrmUGUXO6TmkLxe=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCCzUftO8KOVkV4wQG1vkUvg": [
+        "宝鐘マリン",
+        "https://yt3.ggpht.com/ytc/AKedOLRFcdtwPHqI4573geBEyNL5h93BxtH5cMy_aL4zUw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    #4期生
+    "UCZlDXzGoo7d44bwdNObFacg": [
+        "天音かなた",
+        "https://yt3.ggpht.com/TlH8nz5O9UYo5JZ_5fo4JfXdT18N0Ck27wWrulni-c1g5bwes0tVmFiSKICzI1SW7itaTkk9GA=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCqm3BQLlJfvkTsX_hvm0UmA": [
+        "角巻わため",
+        "https://yt3.ggpht.com/ytc/AKedOLRWpyqOZzCmuSfmKGNo8TD2L_IRUYSw1wyhHXw-=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1uv2Oq6kNxgATlCiez59hw": [
+        "常闇トワ",
+        "https://yt3.ggpht.com/meRnxbRUm5yPSwq8Q5QpI5maFApm5QTGQV_LGblQFsoO0yAV4LI-nSZ70GYwMZ_tbfSa_O8MTCU=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCa9Y57gfeY0Zro_noHRVrnw": [
+        "姫森ルーナ",
+        "https://yt3.ggpht.com/O7m_5HMY_O8yxR3Jhn9cEO1fLNL_GifMERExnAmfY7JrdTRsTjNijTcNYTPN97Llj3zGn8Susw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    #5期生
+    "UC1suqwovbL1kzsoaZgFZLKg": [
+        "癒月ちょこ",
+        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvzGlP9oQwU--Y0r9id_jnA": [
+        "大空スバル",
+        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    ],
     "UC1uv2Oq6kNxgATlCiez59hw": [
         "常闇トワ",
         "https://yt3.ggpht.com/a/AATXAJxqyp7DhLSSrSYRc5HaLcq5QvJvRp3jDnxTeA=s288-c-k-c0xffffffff-no-rj-mo"
@@ -54,7 +136,27 @@ Hololive = {
         "姫森ルーナ",
         "https://yt3.ggpht.com/a/AATXAJzzirDjRJkofWVeoE6gVjodJ0VXaJhy4b_CLg=s288-c-k-c0xffffffff-no-rj-mo"
     ],
-
+    #6期生
+    "UC1opHUrw8rvnsadT-iGp7Cg": [
+        "湊あくあ",
+        "https://yt3.ggpht.com/ytc/AKedOLTbU5ET3bgn0Iuz1jUBNjgSe9EW8kLxIhDUrtJlPw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCXTpFs_3PqI41qX2d9tL2Rw": [
+        "紫咲シオン",
+        "https://yt3.ggpht.com/AyUL9W0ltc_aJr_MysuZBx8hRfb1SIVNREgU9kiOO-lqmdhYkEsllmhagertVIwHwa3UAAKy=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC7fk0CB07ly8oSl0aqKkqFg": [
+        "百鬼あやめ",
+        "https://yt3.ggpht.com/XDGhKwPZcT16Ppg2gQmLHEIYRhw9sY4rqG0HWbeCH68LHkhlVQrrFgxd5hWUuMb2nLfDOhu6=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1suqwovbL1kzsoaZgFZLKg": [
+        "癒月ちょこ",
+        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvzGlP9oQwU--Y0r9id_jnA": [
+        "大空スバル",
+        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    ],
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
 webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
