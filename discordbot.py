@@ -137,25 +137,25 @@ Hololive = {
         "https://yt3.ggpht.com/ytc/AKedOLQI_iYxOpfP8bJklQ_VnS4a9jdrwRRlre_JP1Yp=s88-c-k-c0x00ffffff-no-rj"
     ],
     #6期生
-    "UC1opHUrw8rvnsadT-iGp7Cg": [
-        "湊あくあ",
-        "https://yt3.ggpht.com/ytc/AKedOLTbU5ET3bgn0Iuz1jUBNjgSe9EW8kLxIhDUrtJlPw=s88-c-k-c0x00ffffff-no-rj"
+    "UCENwRMx5Yh42zWpzURebzTw": [
+        "ラプラス・ダークネス",
+        "https://yt3.ggpht.com/roGS60A8a_lDbVakIg1JU3u3hbtjHSTilMGHMizuPKh7tuoY2nl46raxuW2f_83IKFGMjL6Z=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCXTpFs_3PqI41qX2d9tL2Rw": [
-        "紫咲シオン",
-        "https://yt3.ggpht.com/AyUL9W0ltc_aJr_MysuZBx8hRfb1SIVNREgU9kiOO-lqmdhYkEsllmhagertVIwHwa3UAAKy=s88-c-k-c0x00ffffff-no-rj"
+    "UCs9_O1tRPMQTHQ-N_L6FU2g": [
+        "鷹嶺ルイ",
+        "https://yt3.ggpht.com/KO_kRAeAQ4C4M5xJDFOFHZ79ycCRfMxttefXIDFurZE2fsVPnmlHkMdM5zjEsUTH1i97xnxKNw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UC7fk0CB07ly8oSl0aqKkqFg": [
-        "百鬼あやめ",
-        "https://yt3.ggpht.com/XDGhKwPZcT16Ppg2gQmLHEIYRhw9sY4rqG0HWbeCH68LHkhlVQrrFgxd5hWUuMb2nLfDOhu6=s88-c-k-c0x00ffffff-no-rj"
+    "UC6eWCld0KwmyHFbAqK3V-Rw": [
+        "博衣こより",
+        "https://yt3.ggpht.com/DNC5rGjlwA4Ae7rhpPmkv_QdjJPl8AfpQT9NcXTLvPbbriL-Y0Ni-gYfFH8uoiF6Ay1EP9VnZAk=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UC1suqwovbL1kzsoaZgFZLKg": [
-        "癒月ちょこ",
-        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    "UCIBY1ollUsauvVi4hW4cumw": [
+        "沙花叉クロヱ",
+        "https://yt3.ggpht.com/_xNtPLKQcQxMTnOr4tAcGz0GEeESsi0bQX9mJEP3fx_50a8GUfUyOG1eyLIld2cCz6GvKABwpQ=s88-c-k-c0x00ffffff-no-rj"
     ],
-    "UCvzGlP9oQwU--Y0r9id_jnA": [
-        "大空スバル",
-        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    "UC_vMYWcDjmfdpH6r4TTn1MQ": [
+        "風真いろは",
+        "https://yt3.ggpht.com/YK_UCAbw_pFBHSOw_LGWI-WCJDdvMP3y9mmODQ1IFEnNVvcf-M3-q22Db5TLWuAbfboMNFTMIg=s88-c-k-c0x00ffffff-no-rj"
     ],
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
