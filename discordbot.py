@@ -2,7 +2,7 @@ import time
 import requests
 import json
 import copy
-from datetime import datetime,timedelta,timezone
+from datetime import datetime, timedelta, timezone
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
@@ -45,7 +45,6 @@ Hololive = {
         "夏色まつり",
         "https://yt3.ggpht.com/ytc/AKedOLQCXDfJbZoEZ-gtUiF4nSaGU8-qiq--BSTd92Sw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #2期生
     "UC1opHUrw8rvnsadT-iGp7Cg": [
         "湊あくあ",
         "https://yt3.ggpht.com/ytc/AKedOLTbU5ET3bgn0Iuz1jUBNjgSe9EW8kLxIhDUrtJlPw=s88-c-k-c0x00ffffff-no-rj"
@@ -156,8 +155,8 @@ webhook_url_Hololive = 'https://discord.com/api/webhooks/936235678939906049/agCK
 webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA'
 broadcast_data = {}
 
-YOUTUBE_API_KEY = ['AIzaSyAlCdPecfxoUIqtErjDVYhgsCs8juHB364','AIzaSyBIs6-dAh7M5D5MTCrrf21bMtMux2ZO4Ag','AIzaSyDQq85rjZdfYJY-k8UPUZ4-nOar5ePUW-Y',
-                   'AIzaSyCmxIfCRe1wMSG4t00s-Ml3ekSvF-MsasE','AIzaSyBHc-qmCOl-ZbdE3t0ZSQaY2EywWXHOCTk','AIzaSyA8O0O3ujZSPh6KaTsZ3SRW4IbDgLWDP-A']
+YOUTUBE_API_KEY = ['AIzaSyAlCdPecfxoUIqtErjDVYhgsCs8juHB364', 'AIzaSyBIs6-dAh7M5D5MTCrrf21bMtMux2ZO4Ag', 'AIzaSyDQq85rjZdfYJY-k8UPUZ4-nOar5ePUW-Y', 
+                   'AIzaSyCmxIfCRe1wMSG4t00s-Ml3ekSvF-MsasE', 'AIzaSyBHc-qmCOl-ZbdE3t0ZSQaY2EywWXHOCTk', 'AIzaSyA8O0O3ujZSPh6KaTsZ3SRW4IbDgLWDP-A']
 
 def dataformat_for_python(at_time):
     at_year = int(at_time[0:4])
@@ -174,10 +173,10 @@ def replace_JST(s):
     t = u[1].split(":")
     time = [int(a[0]), int(a[1]), int(u[0]), int(t[0]), int(t[1]), int(t[2])]
     if(time[3] >= 15):
-      time[2] += 1
-      time[3] = time[3] + 9 - 24
+        time[2] += 1
+        time[3] = time[3] + 9 - 24
     else:
-      time[3] += 9
+        time[3] += 9
     return (str(time[0]) + "/" + str(time[1]).zfill(2) + "/" + str(time[2]).zfill(2) + " " + str(time[3]).zfill(2) + "-" + str(time[4]).zfill(2) + "-" + str(time[5]).zfill(2))
 
 def post_to_discord(userId, videoId):
