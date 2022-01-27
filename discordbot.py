@@ -159,11 +159,12 @@ Hololive = {
     ],
 } #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
 
-webhook_url_Hololive = '配信開始チャンネル用のwebhookリンク' #ホロライブ配信開始
-webhook_url_Hololive_yotei = '配信開始予定用のwebhookリンク' #ホロライブ配信予定
+webhook_url_Hololive = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA' #ホロライブ配信開始
+webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA' #ホロライブ配信予定
 broadcast_data = {} #配信予定のデータを格納
 
-YOUTUBE_API_KEY = [複数のAPI(str型)をリストで管理]
+YOUTUBE_API_KEY = ['AIzaSyAlCdPecfxoUIqtErjDVYhgsCs8juHB364','AIzaSyBIs6-dAh7M5D5MTCrrf21bMtMux2ZO4Ag','AIzaSyDQq85rjZdfYJY-k8UPUZ4-nOar5ePUW-Y',
+                   'AIzaSyCmxIfCRe1wMSG4t00s-Ml3ekSvF-MsasE','AIzaSyBHc-qmCOl-ZbdE3t0ZSQaY2EywWXHOCTk','AIzaSyA8O0O3ujZSPh6KaTsZ3SRW4IbDgLWDP-A']
 
 def dataformat_for_python(at_time): #datetime型への変換
     at_year = int(at_time[0:4])
