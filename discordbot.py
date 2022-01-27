@@ -2,7 +2,7 @@ import time
 import requests
 import json
 import copy
-from datetime import datetime, timedelta, timezone
+from datetime import timedelta
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
