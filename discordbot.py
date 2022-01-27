@@ -202,9 +202,7 @@ def get_information():
             for item in v_data['items']:
                 broadcast_data[item['id']['videoId']] = {'channelId': item['snippet']['channelId']}
             for video in broadcast_data:
-                try:
-                    a = broadcast_data[video]['starttime']
-                except KeyError:
+                if(!broadcast_data[video]['starttime']):
                     aaaa = requests.get("https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=" + video + "&key=" + YOUTUBE_API_KEY[api_now])
                     api_now = (api_now + 1) % len(YOUTUBE_API_KEY)
                     vd = json.loads(aaaa.text)
