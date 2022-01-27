@@ -192,10 +192,10 @@ def post_to_discord(userId, videoId):
 
 def get_information():
     tmp = copy.copy(broadcast_data)
-    api_now = 0 
+    api_now = 0
     for idol in Hololive:
         api_link = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=" + idol + "&key=" + YOUTUBE_API_KEY[api_now] + "&eventType=upcoming&type=video"
-        api_now = (api_now + 1) % len(YOUTUBE_API_KEY) 
+        api_now = (api_now + 1) % len(YOUTUBE_API_KEY)
         aaa = requests.get(api_link)
         v_data = json.loads(aaa.text)
         try:
@@ -243,7 +243,7 @@ def post_broadcast_schedule(userId, videoId, starttime):
     }
     requests.post(webhook_url_Hololive_yotei, main_content)
 
-while True:
+while True:  
     now_time = datetime.now() + timedelta(hours=9)
     if((now_time.minute == 0) and (now_time.hour % 2 == 0)):
         get_information()
