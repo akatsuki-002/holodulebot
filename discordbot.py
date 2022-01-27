@@ -5,7 +5,6 @@ import copy
 from datetime import datetime, timedelta, timezone
 
 Hololive = {
-    #0期生
     "UCp6993wxpyDPHUpavwDFqgg": [
         "ときのそら",
         "https://yt3.ggpht.com/a/AATXAJzGvZJuJ92qM5WcfBcDZqPFSj_CGIEYp9VFmA=s288-c-k-c0xffffffff-no-rj-mo"
@@ -26,7 +25,6 @@ Hololive = {
         "AZKi",
         "https://yt3.ggpht.com/ytc/AKedOLQQhnWKHLOLxjnXksGHHC8bnVS2UniL8Od6JTEPWQ=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #1期生
     "UCD8HOxPs4Xvsm8H0ZxXGiBw": [
         "夜空メル",
         "https://yt3.ggpht.com/ytc/AKedOLS8pa1lDGBL7tieftDRgPjVsSexeMJ9YURgBTXDMg=s88-c-k-c0x00ffffff-no-rj"
@@ -68,7 +66,6 @@ Hololive = {
         "大空スバル",
         "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #ゲーマーズ
     "UCp-5t9SrOQwXMU7iIjQfARg": [
         "大神ミオ",
         "https://yt3.ggpht.com/ytc/AKedOLRP0h31urAKtYcu_j1foVuGyPU65_Y-VNBqLgHB5Q=s88-c-k-c0x00ffffff-no-rj"
@@ -81,7 +78,6 @@ Hololive = {
         "戌神ころね",
         "https://yt3.ggpht.com/ytc/AKedOLSegxVNNn4QGDwO-jO89ZDcYLSyPUQS3a4KU6QPCw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #3期生
     "UC1DCedRgGHBdm81E1llLhOQ": [
         "兎田ぺこら",
         "https://yt3.ggpht.com/ytc/AKedOLSmHTeNNQp8A4AwsUPKzBa2ubDBWe6RSaG39mAYTw=s88-c-k-c0x00ffffff-no-rj"
@@ -102,7 +98,6 @@ Hololive = {
         "宝鐘マリン",
         "https://yt3.ggpht.com/ytc/AKedOLRFcdtwPHqI4573geBEyNL5h93BxtH5cMy_aL4zUw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #4期生
     "UCZlDXzGoo7d44bwdNObFacg": [
         "天音かなた",
         "https://yt3.ggpht.com/TlH8nz5O9UYo5JZ_5fo4JfXdT18N0Ck27wWrulni-c1g5bwes0tVmFiSKICzI1SW7itaTkk9GA=s88-c-k-c0x00ffffff-no-rj"
@@ -119,7 +114,6 @@ Hololive = {
         "姫森ルーナ",
         "https://yt3.ggpht.com/O7m_5HMY_O8yxR3Jhn9cEO1fLNL_GifMERExnAmfY7JrdTRsTjNijTcNYTPN97Llj3zGn8Susw=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #5期生
     "UCFKOVgVbGmX65RxO3EtH3iw": [
         "雪花ラミィ",
         "https://yt3.ggpht.com/ytc/AKedOLQDR06gp26jxNNXh88Hhv1o-pNrnlKrYruqUIOx=s88-c-k-c0x00ffffff-no-rj"
@@ -136,7 +130,6 @@ Hololive = {
         "尾丸ポルカ",
         "https://yt3.ggpht.com/ytc/AKedOLQI_iYxOpfP8bJklQ_VnS4a9jdrwRRlre_JP1Yp=s88-c-k-c0x00ffffff-no-rj"
     ],
-    #6期生
     "UCENwRMx5Yh42zWpzURebzTw": [
         "ラプラス・ダークネス",
         "https://yt3.ggpht.com/roGS60A8a_lDbVakIg1JU3u3hbtjHSTilMGHMizuPKh7tuoY2nl46raxuW2f_83IKFGMjL6Z=s88-c-k-c0x00ffffff-no-rj"
