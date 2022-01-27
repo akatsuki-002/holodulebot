@@ -150,16 +150,16 @@ Hololive = {
         "風真いろは",
         "https://yt3.ggpht.com/YK_UCAbw_pFBHSOw_LGWI-WCJDdvMP3y9mmODQ1IFEnNVvcf-M3-q22Db5TLWuAbfboMNFTMIg=s88-c-k-c0x00ffffff-no-rj"
     ],
-} #配信者のチャンネルID, 配信者名, アイコン画像のURLのリスト
+}
 
-webhook_url_Hololive = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA' #ホロライブ配信開始
-webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA' #ホロライブ配信予定
-broadcast_data = {} #配信予定のデータを格納
+webhook_url_Hololive = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA'
+webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA' 
+broadcast_data = {}
 
 YOUTUBE_API_KEY = ['AIzaSyAlCdPecfxoUIqtErjDVYhgsCs8juHB364','AIzaSyBIs6-dAh7M5D5MTCrrf21bMtMux2ZO4Ag','AIzaSyDQq85rjZdfYJY-k8UPUZ4-nOar5ePUW-Y',
                    'AIzaSyCmxIfCRe1wMSG4t00s-Ml3ekSvF-MsasE','AIzaSyBHc-qmCOl-ZbdE3t0ZSQaY2EywWXHOCTk','AIzaSyA8O0O3ujZSPh6KaTsZ3SRW4IbDgLWDP-A']
 
-def dataformat_for_python(at_time): #datetime型への変換
+def dataformat_for_python(at_time):
     at_year = int(at_time[0:4])
     at_month = int(at_time[5:7])
     at_day = int(at_time[8:10])
@@ -181,37 +181,37 @@ def replace_JST(s):
     return (str(time[0]) + "/" + str(time[1]).zfill(2) + "/" + str(time[2]).zfill(2) + " " + str(time[3]).zfill(2) + "-" + str(time[4]).zfill(2) + "-" + str(time[5]).zfill(2))
 
 def post_to_discord(userId, videoId):
-    haishin_url = "https://www.youtube.com/watch?v=" + videoId #配信URL
-    content = "配信中！\n" + haishin_url #Discordに投稿される文章
+    haishin_url = "https://www.youtube.com/watch?v=" + videoId 
+    content = "配信中！\n" + haishin_url
     main_content = {
-        "username": Hololive[userId][0], #配信者名
-        "avatar_url": Hololive[userId][1], #アイコン
-        "content": content #文章
+        "username": Hololive[userId][0], 
+        "avatar_url": Hololive[userId][1], 
+        "content": content 
     }
-    requests.post(webhook_url_Hololive, main_content) #Discordに送信
+    requests.post(webhook_url_Hololive, main_content) 
     broadcast_data.pop(videoId)
 
 def get_information():
     tmp = copy.copy(broadcast_data)
-    api_now = 0 #現在どのYouTube APIを使っているかを記録
+    api_now = 0 
     for idol in Hololive:
         api_link = "https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=" + idol + "&key=" + YOUTUBE_API_KEY[api_now] + "&eventType=upcoming&type=video"
-        api_now = (api_now + 1) % len(YOUTUBE_API_KEY) #apiを1つずらす
+        api_now = (api_now + 1) % len(YOUTUBE_API_KEY) 
         aaa = requests.get(api_link)
         v_data = json.loads(aaa.text)
         try:
-            for item in v_data['items']:#各配信予定動画データに関して
-                broadcast_data[item['id']['videoId']] = {'channelId':item['snippet']['channelId']} #channelIDを格納
+            for item in v_data['items']:
+                broadcast_data[item['id']['videoId']] = {'channelId':item['snippet']['channelId']} 
             for video in broadcast_data:
                 try:
-                    a = broadcast_data[video]['starttime'] #既にbroadcast_dataにstarttimeがあるかチェック
-                except KeyError:#なかったら
+                    a = broadcast_data[video]['starttime'] 
+                except KeyError:
                     aaaa = requests.get("https://www.googleapis.com/youtube/v3/videos?part=liveStreamingDetails&id=" + video + "&key=" + YOUTUBE_API_KEY[api_now])
-                    api_now = (api_now + 1) % len(YOUTUBE_API_KEY) #apiを1つずらす
+                    api_now = (api_now + 1) % len(YOUTUBE_API_KEY)
                     vd = json.loads(aaaa.text)
                     print(vd)
                     broadcast_data[video]['starttime'] = vd['items'][0]['liveStreamingDetails']['scheduledStartTime']
-        except KeyError: #配信予定がなくて403が出た
+        except KeyError:
             continue
     for vi in broadcast_data:
         if(not(vi in tmp)):
@@ -224,11 +224,10 @@ def get_information():
 def check_schedule(now_time, broadcast_data):
     for bd in list(broadcast_data):
         try:
-            # RFC 3339形式 => datetime
-            sd_time = datetime.strptime(broadcast_data[bd]['starttime'], '%Y-%m-%dT%H:%M:%SZ') #配信スタート時間をdatetime型で保管
+            sd_time = datetime.strptime(broadcast_data[bd]['starttime'], '%Y-%m-%dT%H:%M:%SZ') 
             sd_time += timedelta(hours=9)
-            if(now_time >= sd_time):#今の方が配信開始時刻よりも後だったら
-                post_to_discord(broadcast_data[bd]['channelId'], bd) #ツイート
+            if(now_time >= sd_time):
+                post_to_discord(broadcast_data[bd]['channelId'], bd) 
         except KeyError:
             continue
 
@@ -236,14 +235,14 @@ def post_broadcast_schedule(userId, videoId, starttime):
     st = starttime.replace('T', ' ')
     sst = st.replace('Z', '')
     ssst = replace_JST(sst)
-    haishin_url = "https://www.youtube.com/watch?v=" + videoId #配信URL
-    content = ssst + "に配信予定！\n" + haishin_url #Discordに投稿される文章
+    haishin_url = "https://www.youtube.com/watch?v=" + videoId 
+    content = ssst + "に配信予定！\n" + haishin_url 
     main_content = {
-        "username": Hololive[userId][0], #配信者名
-        "avatar_url": Hololive[userId][1], #アイコン
-        "content": content #文章
+        "username": Hololive[userId][0], 
+        "avatar_url": Hololive[userId][1], 
+        "content": content 
     }
-    requests.post(webhook_url_Hololive_yotei, main_content) #Discordに送信
+    requests.post(webhook_url_Hololive_yotei, main_content) 
 
 while True:
     now_time = datetime.now() + timedelta(hours=9)
