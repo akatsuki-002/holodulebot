@@ -3,9 +3,11 @@ import requests
 import json
 import copy
 from datetime import timedelta, datetime
-from discord.ext
+from discord.ext import commands
 from os import getenv
 import traceback
+
+bot = commands.Bot(command_prefix='/')
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
