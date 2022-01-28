@@ -152,7 +152,7 @@ Hololive = {
 }
 
 webhook_url_Hololive = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA'
-webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936235678939906049/agCK1XYhb_iIrFTISDa27eSGXWzRtKl5lLj0cZ716W92s6-lHgXGAUZd2C-IQvLNKUuA'
+webhook_url_Hololive_yotei = 'https://discord.com/api/webhooks/936429380119429130/qiCemXwY2RVboccD62OEgVxAM4fhTKrkHuU0m_WAlG0s8ru5QxE_v7Q1-7fRPqsKChDj'
 broadcast_data = {}
 
 YOUTUBE_API_KEY = ['AIzaSyAlCdPecfxoUIqtErjDVYhgsCs8juHB364', 'AIzaSyBIs6-dAh7M5D5MTCrrf21bMtMux2ZO4Ag', 'AIzaSyDQq85rjZdfYJY-k8UPUZ4-nOar5ePUW-Y',
