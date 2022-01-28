@@ -24,6 +24,130 @@ Hololive = {
     "UC0TXe_LYZ4scaW2XMyi5_kw": [
         "AZKi",
         "https://yt3.ggpht.com/ytc/AKedOLQQhnWKHLOLxjnXksGHHC8bnVS2UniL8Od6JTEPWQ=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCD8HOxPs4Xvsm8H0ZxXGiBw": [
+        "夜空メル",
+        "https://yt3.ggpht.com/ytc/AKedOLS8pa1lDGBL7tieftDRgPjVsSexeMJ9YURgBTXDMg=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCFTLzh12_nrtzqBPsTCqenA": [
+        "アキ・ローゼンタール",
+        "https://yt3.ggpht.com/ytc/AKedOLT4XEPRFwXpb4gZ1qco_xCOt7ems7SrUsGOkmXX=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1CfXB_kRs3C-zaeTG3oGyg": [
+        "赤井はあと",
+        "https://yt3.ggpht.com/rNj6bichsOoUjA2N9iXWxInEt9Y2Fo5fhG4S8oR17ip8ouCu_7wmX3PnQxt6OP6Rd9OlYXYcmw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCdn5BQ06XqgXoAxIhbqw5Rg": [
+        "白上フブキ",
+        "https://yt3.ggpht.com/ytc/AKedOLQmM8F8S-7GTcF5Lw7fBALF8FQC9yNKTb_nFHev2w=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCQ0UDLQCjY0rmuxCDE38FGg": [
+        "夏色まつり",
+        "https://yt3.ggpht.com/ytc/AKedOLQCXDfJbZoEZ-gtUiF4nSaGU8-qiq--BSTd92Sw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1opHUrw8rvnsadT-iGp7Cg": [
+        "湊あくあ",
+        "https://yt3.ggpht.com/ytc/AKedOLTbU5ET3bgn0Iuz1jUBNjgSe9EW8kLxIhDUrtJlPw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCXTpFs_3PqI41qX2d9tL2Rw": [
+        "紫咲シオン",
+        "https://yt3.ggpht.com/AyUL9W0ltc_aJr_MysuZBx8hRfb1SIVNREgU9kiOO-lqmdhYkEsllmhagertVIwHwa3UAAKy=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC7fk0CB07ly8oSl0aqKkqFg": [
+        "百鬼あやめ",
+        "https://yt3.ggpht.com/XDGhKwPZcT16Ppg2gQmLHEIYRhw9sY4rqG0HWbeCH68LHkhlVQrrFgxd5hWUuMb2nLfDOhu6=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1suqwovbL1kzsoaZgFZLKg": [
+        "癒月ちょこ",
+        "https://yt3.ggpht.com/ytc/AKedOLQn_VxZ1ApMgQahrkcTtSdSAr6Jpxi4eHQiMnIlsw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvzGlP9oQwU--Y0r9id_jnA": [
+        "大空スバル",
+        "https://yt3.ggpht.com/ytc/AKedOLTf1BZdgOX5oC0SB-B_Uq16OlomzqRH81ADPPlPcA=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCp-5t9SrOQwXMU7iIjQfARg": [
+        "大神ミオ",
+        "https://yt3.ggpht.com/ytc/AKedOLRP0h31urAKtYcu_j1foVuGyPU65_Y-VNBqLgHB5Q=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvaTdHTWBGv3MKj3KVqJVCw": [
+        "猫又おかゆ",
+        "https://yt3.ggpht.com/ytc/AKedOLT_TLZsRHyNXj_3v1QIfF5Z1LOEIKQPL_7HGH29=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UChAnqc_AY5_I3Px5dig3X1Q": [
+        "戌神ころね",
+        "https://yt3.ggpht.com/ytc/AKedOLSegxVNNn4QGDwO-jO89ZDcYLSyPUQS3a4KU6QPCw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1DCedRgGHBdm81E1llLhOQ": [
+        "兎田ぺこら",
+        "https://yt3.ggpht.com/ytc/AKedOLSmHTeNNQp8A4AwsUPKzBa2ubDBWe6RSaG39mAYTw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCl_gCybOJRIgOXw6Qb4qJzQ": [
+        "麗羽るしあ",
+        "https://yt3.ggpht.com/ytc/AKedOLR1en3cN55loPrFL1C5K19o5xGhcKkmr0noD4cO=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCvInZx9h3jC2JzsIzoOebWg": [
+        "不知火フレア",
+        "https://yt3.ggpht.com/d9aIrGtZR0eI4k1Wnev5f_R4llIBsWnQOjkdsqkMycoAxA3g_zz-jyeBl8tEHfbm1iTg0SJj=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCdyqAaZDKHXg4Ahi7VENThQ": [
+        "白銀ノエル",
+        "https://yt3.ggpht.com/ytc/AKedOLS1MTrG3Gn7-Vf_rVNAZ2Ou8KrmUGUXO6TmkLxe=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCCzUftO8KOVkV4wQG1vkUvg": [
+        "宝鐘マリン",
+        "https://yt3.ggpht.com/ytc/AKedOLRFcdtwPHqI4573geBEyNL5h93BxtH5cMy_aL4zUw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCZlDXzGoo7d44bwdNObFacg": [
+        "天音かなた",
+        "https://yt3.ggpht.com/TlH8nz5O9UYo5JZ_5fo4JfXdT18N0Ck27wWrulni-c1g5bwes0tVmFiSKICzI1SW7itaTkk9GA=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCqm3BQLlJfvkTsX_hvm0UmA": [
+        "角巻わため",
+        "https://yt3.ggpht.com/ytc/AKedOLRWpyqOZzCmuSfmKGNo8TD2L_IRUYSw1wyhHXw-=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC1uv2Oq6kNxgATlCiez59hw": [
+        "常闇トワ",
+        "https://yt3.ggpht.com/meRnxbRUm5yPSwq8Q5QpI5maFApm5QTGQV_LGblQFsoO0yAV4LI-nSZ70GYwMZ_tbfSa_O8MTCU=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCa9Y57gfeY0Zro_noHRVrnw": [
+        "姫森ルーナ",
+        "https://yt3.ggpht.com/O7m_5HMY_O8yxR3Jhn9cEO1fLNL_GifMERExnAmfY7JrdTRsTjNijTcNYTPN97Llj3zGn8Susw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCFKOVgVbGmX65RxO3EtH3iw": [
+        "雪花ラミィ",
+        "https://yt3.ggpht.com/ytc/AKedOLQDR06gp26jxNNXh88Hhv1o-pNrnlKrYruqUIOx=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCAWSyEs_Io8MtpY3m-zqILA": [
+        "桃鈴ねね",
+        "https://yt3.ggpht.com/bMBMxmB1YVDVazU-8KbB6JZqUHn4YzmFiQRWwEUHCeqm5REPW7HHQChC5xE6e36aqqnXgK4a=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCUKD-uaobj9jiqB-VXt71mA": [
+        "獅白ぼたん",
+        "https://yt3.ggpht.com/ytc/AKedOLQXr6MeUpHI0-yNZIAaGXHvBVowhCWMwGx-zXYs=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCK9V2B22uJYu3N7eR_BT9QA": [
+        "尾丸ポルカ",
+        "https://yt3.ggpht.com/ytc/AKedOLQI_iYxOpfP8bJklQ_VnS4a9jdrwRRlre_JP1Yp=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCENwRMx5Yh42zWpzURebzTw": [
+        "ラプラス・ダークネス",
+        "https://yt3.ggpht.com/roGS60A8a_lDbVakIg1JU3u3hbtjHSTilMGHMizuPKh7tuoY2nl46raxuW2f_83IKFGMjL6Z=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCs9_O1tRPMQTHQ-N_L6FU2g": [
+        "鷹嶺ルイ",
+        "https://yt3.ggpht.com/KO_kRAeAQ4C4M5xJDFOFHZ79ycCRfMxttefXIDFurZE2fsVPnmlHkMdM5zjEsUTH1i97xnxKNw=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC6eWCld0KwmyHFbAqK3V-Rw": [
+        "博衣こより",
+        "https://yt3.ggpht.com/DNC5rGjlwA4Ae7rhpPmkv_QdjJPl8AfpQT9NcXTLvPbbriL-Y0Ni-gYfFH8uoiF6Ay1EP9VnZAk=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UCIBY1ollUsauvVi4hW4cumw": [
+        "沙花叉クロヱ",
+        "https://yt3.ggpht.com/_xNtPLKQcQxMTnOr4tAcGz0GEeESsi0bQX9mJEP3fx_50a8GUfUyOG1eyLIld2cCz6GvKABwpQ=s88-c-k-c0x00ffffff-no-rj"
+    ],
+    "UC_vMYWcDjmfdpH6r4TTn1MQ": [
+        "風真いろは",
+        "https://yt3.ggpht.com/YK_UCAbw_pFBHSOw_LGWI-WCJDdvMP3y9mmODQ1IFEnNVvcf-M3-q22Db5TLWuAbfboMNFTMIg=s88-c-k-c0x00ffffff-no-rj"
     ]
 }
 
