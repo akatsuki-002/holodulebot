@@ -3,6 +3,9 @@ import requests
 import json
 import copy
 from datetime import timedelta, datetime
+from discord.ext
+from os import getenv
+import traceback
 
 Hololive = {
     "UCp6993wxpyDPHUpavwDFqgg": [
